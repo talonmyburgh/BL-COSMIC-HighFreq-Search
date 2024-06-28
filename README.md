@@ -6,4 +6,5 @@ At the moment, a place to compile and save work. Additional documentation to be 
 
 Files:
 - messing_around.ipynb: A notebook to begin working with hits from the COSMIC pipeline marked by SETIcore at frequencies between 25-50GHz
+- messing_around_focused.ipynb: A notebook for messing around with techniques for finding which hits can be flagged as RFI and ignored
 - trim_dataset.py: A script for trimming off unnecessary columns from the dataset (pulled from the database) and partitioning it by observation type
