@@ -1,2 +1,10 @@
 # Ignore the plots directory
 plots/
+
+# Ignore data
+frequency_adjacency/adjacent_in_all
+frequency_adjacency/adjacen_in_coherent
+frequency_adjacency/adjacent_in_each_source
+
+# Ignore antenna plots
+stamps/antenna_plots

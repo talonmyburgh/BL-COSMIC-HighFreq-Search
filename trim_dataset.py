@@ -34,7 +34,8 @@ cols_to_care_about = ["id",
 	"tstart_h",
 	"ra_hours",
 	"dec_degrees",
-    "source_name"]
+    "source_name",
+    "tuning"]
 trimmed_df = df[cols_to_care_about]
 print("Trimmed dataset")
 
