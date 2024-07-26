@@ -11,8 +11,17 @@
 import pandas as pd
 from astropy.time import Time
 
+# Figure out where file is
+import socket
+hostname = socket.gethostname()
+if hostname == "blpc1" or hostname == "blpc2":
+    data_folder = "/datax/scratch/nstieg/"
+elif hostname == "cosmic-gpu-1":
+    data_folder = "/mnt/cosmic-gpu-1/data0/nstiegle/"
+else:
+    raise Exception("Data path not known")
+
 # Read in file
-data_folder = "/datax/scratch/nstieg/"
 filename = data_folder + "25GHz_higher.pkl"
 df = pd.read_pickle(filename)
 print("File read in correctly")
