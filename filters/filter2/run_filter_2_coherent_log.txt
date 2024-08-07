@@ -1,0 +1,4 @@
+2024-07-29 18:38:12.275844: Coherent data post filter 1 read in correctly
+2024-07-29 18:38:13.420914: Running algorithm
+2024-07-29 19:05:56.840862: Algorithm done. Saving
+2024-07-29 19:05:57.092527: Saved. Done!

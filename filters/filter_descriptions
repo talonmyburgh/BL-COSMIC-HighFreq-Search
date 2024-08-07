@@ -1,0 +1,13 @@
+Coherent:
+1. Grouped by source. Grouped by frequency. Rejects groups where all hits have 0 drift rate
+2. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 0.25Hz/s
+3. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 2Hz/s
+4. Grouped by source. Grouped by frequency. Rejects groups with more than one frequency
+5. Grouped by freuqency. Rejects groups with more than one frequency.
+6. Rejects all hits with zero drift rate.
+7. Rejects all hits with SNR < 10
+8. Rejects all hits with SNR > 100
+9. Rejects hits within 2hz of another hit
+10. Rejects hits within 10hz of another hit
+11. Flag hits which have another hit where it looks like they're drifting to
+12. For timestamps which have a num_timesteps < 16, reject hits with SNR < 15

@@ -1,0 +1,3 @@
+Filter 3 takes out all the hits which were missed by filter 2
+because maybe they were recorded as drifting a few hz/s, but then
+were recorded back at the same frequency again

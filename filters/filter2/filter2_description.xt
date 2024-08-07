@@ -1,0 +1,3 @@
+Filter 2 takes out all hits that look like RFI because they follow
+the same pattern as filter 1 but because of the FFT, seticore may have
+recorded them as jiggling a little bit and given them a slight drift rate

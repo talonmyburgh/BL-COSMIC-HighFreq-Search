@@ -1,0 +1,5 @@
+Filter 1 takes out all the hits which look like RFI because they're
+observed in the same patch of sky (on the same target) multiple times
+at exactly the same frequency and each time with a zero drift rate.
+The zero drift rate means signals are not accelerating relative to
+the telescope, which means they're probably on the Earth (not ET)
