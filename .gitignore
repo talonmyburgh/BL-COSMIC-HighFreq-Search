@@ -23,4 +23,5 @@ frequency_adjacency/stamps_of_mixed_collision_groups/misc_group_1/*.png
 frequency_adjacency/stamps_of_mixed_collision_groups/misc_group_2/*.png
 stamps/look_at_stamps_matched_hits/*.png
 
-
+# Ignore filter results
+filters/*/*.npy
