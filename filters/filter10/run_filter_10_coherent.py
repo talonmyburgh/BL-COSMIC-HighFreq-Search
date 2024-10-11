@@ -89,6 +89,7 @@ hits_with_no_close_neighbor = ~hit_with_close_neighbor
 
 # Then index the coherent dataframe at those locations
 lonely_hits = coherent.iloc[hits_with_no_close_neighbor]
+np.save(script_dir + "/results_on_all_coherent", lonely_hits.id.values)
 
 # Make sure to take out the hits which were taken out by previous filters
 filtered_lonely_hits = pd.merge(lonely_hits, coherent_after_9, on='id', how='inner')
