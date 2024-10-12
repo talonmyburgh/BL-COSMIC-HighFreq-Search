@@ -25,3 +25,6 @@ stamps/look_at_stamps_matched_hits/*.png
 
 # Ignore filter results
 filters/*/*.npy
+
+# Ignore more plots
+candidate/decent_hits
