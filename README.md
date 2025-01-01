@@ -58,6 +58,10 @@ The `dedrift_*` notebooks were for investigating how the seticore search pipelin
 
 `base_requirements.txt` contains the packages for a conda environment which worked to open and manipulate stamp files.
 
-### work_from_laptop
+### `work_from_laptop`
 
 This folder contains work which was completed on my personal laptop (mostly looking at stamp plots because it was faster to do locally). A script was created (modified from a ChatGPT prompt) to rapidly look through stamp files and mark those which looked notable, `look_at_images.py`. This was modified for the `look_at_images.py` and `look_at_SARFI_images.py` which might actually be a renamed previous version of `look_at_images.py`. This was used to manually label the stamps which contained SARFI to validate algorithms to look for it. The `look_at_promising_candidates.ipynb` notebook was for visually inspecting the 482 candidates which passed filter 12 to find the 12 promising candidates which weren't SARFI. 
+
+### `stats_of_low_n`
+
+Investigation into turboSETI/seticore false positive rate in Gausian Noise
