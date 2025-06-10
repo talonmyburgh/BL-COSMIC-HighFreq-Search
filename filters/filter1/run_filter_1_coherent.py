@@ -25,20 +25,20 @@ def print_and_log(message):
 
 ### Read in the data
 # Check which server we're on (in case the data is in different places on different servers)
-import socket
-hostname = socket.gethostname()
+# import socket
+# hostname = socket.gethostname()
 
-# Get paths to data
-if hostname == "blpc1" or hostname == "blpc2":
-    data_path = "/datax/scratch/nstieg/"
-elif hostname == "cosmic-gpu-1":
-    data_path = "/mnt/cosmic-gpu-1/data0/nstiegle/"
-else:
-    raise Exception("Data path not known")
+# # Get paths to data
+# if hostname == "blpc1" or hostname == "blpc2":
+#     data_path = "/datax/scratch/nstieg/"
+# elif hostname == "cosmic-gpu-1":
+#     data_path = "/mnt/cosmic-gpu-1/data0/nstiegle/"
+# else:
+#     raise Exception("Data path not known")
 
-full_dataset_path = data_path + "25GHz_higher.pkl"
-coherent_dataset_path = data_path + "25GHz_higher_coherent.pkl"
-incoherent_dataset_path = data_path + "25GHz_higher_incoherent.pkl"
+full_dataset_path = os.path.join(script_dir,"../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl")
+coherent_dataset_path = full_dataset_path
+# incoherent_dataset_path = data_path + "25GHz_higher_incoherent.pkl"
 
 # Read in data
 coherent = pd.read_pickle(coherent_dataset_path)
@@ -83,19 +83,19 @@ def filter1_single_source(source, name=None):
         print_and_log("Done with source: " + name)
     return source_good_ids
 
-# Setup for multiprocessing
-sources = coherent.groupby("source_name")
-inputs = [(source, source_name) for source_name, source in sources] 
-p = multiprocessing.Pool() 
+if __name__ == "__main__":
+    sources = coherent.groupby("source_name")
+    inputs = [(source, source_name) for source_name, source in sources] 
+    p = multiprocessing.Pool() 
 
-# Run algorithm with multiprocessing
-print_and_log("Running algorithm")
-results = p.starmap(filter1_single_source, inputs)
-print_and_log("Algorithm done. Saving")
+    # Run algorithm with multiprocessing
+    print_and_log("Running algorithm")
+    results = p.starmap(filter1_single_source, inputs)
+    print_and_log("Algorithm done. Saving")
 
-# Save results
-good_indices = np.array([], dtype=int)
-for result in results:
-    good_indices = np.concatenate([good_indices, result])
-np.save(script_dir + "/run_filter_1_coherent_results", good_indices)
-print_and_log("Saved. Done!")
+    # Save results
+    good_indices = np.array([], dtype=int)
+    for result in results:
+        good_indices = np.concatenate([good_indices, result])
+    np.save(script_dir + "/run_filter_1_coherent_results", good_indices)
+    print_and_log("Saved. Done!")
