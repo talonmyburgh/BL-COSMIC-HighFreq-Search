@@ -25,25 +25,32 @@ def print_and_log(message):
 
 ### Read in the data
 # Check which server we're on (in case the data is in different places on different servers)
-import socket
-hostname = socket.gethostname()
+# import socket
+# hostname = socket.gethostname()
 
-# Get paths to data
-if hostname == "blpc1" or hostname == "blpc2":
-    data_path = "/datax/scratch/nstieg/"
-elif hostname == "cosmic-gpu-1":
-    data_path = "/mnt/cosmic-gpu-1/data0/nstiegle/"
-else:
-    raise Exception("Data path not known")
+# # Get paths to data
+# if hostname == "blpc1" or hostname == "blpc2":
+#     data_path = "/datax/scratch/nstieg/"
+# elif hostname == "cosmic-gpu-1":
+#     data_path = "/mnt/cosmic-gpu-1/data0/nstiegle/"
+# else:
+#     raise Exception("Data path not known")
 
-full_dataset_path = data_path + "25GHz_higher.pkl"
-coherent_dataset_path = data_path + "25GHz_higher_coherent.pkl"
-incoherent_dataset_path = data_path + "25GHz_higher_incoherent.pkl"
-coherent_after_1_path = data_path + "25GHz_higher_coherent_post_filter1.pkl"
-coherent_after_2_path = data_path + "25GHz_higher_coherent_post_filter2.pkl"
+full_dataset_path = os.path.join(script_dir,"../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl")
+coherent_dataset_path = full_dataset_path
+# incoherent_dataset_path = data_path + "25GHz_higher_incoherent.pkl"
+# coherent_after_1_path = data_path + "25GHz_higher_coherent_post_filter1.pkl"
+# coherent_after_2_path = data_path + "25GHz_higher_coherent_post_filter2.pkl"
+
+print_and_log("Reading in coherent data from: " + coherent_dataset_path)
+coherent_orig = pd.read_pickle(coherent_dataset_path)
+good_indices_path = os.path.join(script_dir,"../filter2/run_filter_2_coherent_results.npy")
+print_and_log("Reading in good indices from: " + good_indices_path)
+good_indices = np.load(good_indices_path)
+coherent = coherent_orig[coherent_orig.id.isin(good_indices)]
 
 # Read in data
-coherent = pd.read_pickle(coherent_after_2_path)
+# coherent = pd.read_pickle(coherent_after_2_path)
 # incoherent = pd.read_pickle(incoherent_dataset_path)
 # df = pd.read_pickle(full_dataset_path)
 print_and_log("Coherent data post filter 2 read in correctly")
@@ -85,19 +92,21 @@ def filter3_single_source(source, name=None):
 
     return source_good_ids
 
-# Setup for multiprocessing
-sources = coherent.groupby("source_name")
-inputs = [(source, source_name) for source_name, source in sources] 
-p = multiprocessing.Pool() 
+if __name__ == "__main__":
 
-# Run algorithm with multiprocessing
-print_and_log("Running algorithm")
-results = p.starmap(filter3_single_source, inputs)
-print_and_log("Algorithm done. Saving")
+    # Setup for multiprocessing
+    sources = coherent.groupby("source_name")
+    inputs = [(source, source_name) for source_name, source in sources] 
+    p = multiprocessing.Pool() 
 
-# Save results
-good_indices = np.array([], dtype=int)
-for result in results:
-    good_indices = np.concatenate([good_indices, result])
-np.save(script_dir + "/run_filter_3_coherent_results", good_indices)
-print_and_log("Saved. Done!")
+    # Run algorithm with multiprocessing
+    print_and_log("Running algorithm")
+    results = p.starmap(filter3_single_source, inputs)
+    print_and_log("Algorithm done. Saving")
+
+    # Save results
+    good_indices = np.array([], dtype=int)
+    for result in results:
+        good_indices = np.concatenate([good_indices, result])
+    np.save(script_dir + "/run_filter_3_coherent_results", good_indices)
+    print_and_log("Saved. Done!")
