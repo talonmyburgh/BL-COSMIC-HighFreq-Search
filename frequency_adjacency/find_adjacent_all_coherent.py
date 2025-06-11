@@ -11,17 +11,18 @@ import os
 
 ## Read in the data
 # Check which server we're on (in case the data is in different places on different servers)
-import socket
-hostname = socket.gethostname()
+# import socket
+# hostname = socket.gethostname()
 
-# Get paths to data
-if hostname == "blpc1" or hostname == "blpc2":
-    full_dataset_path = "/datax/scratch/nstieg/25GHz_higher.pkl"
-    coherent_dataset_path = "/datax/scratch/nstieg/25GHz_higher_coherent.pkl"
-    incoherent_dataset_path = "/datax/scratch/nstieg/25GHz_higher_incoherent.pkl"
-else:
-    raise Exception("Data path not known")
+# # Get paths to data
+# if hostname == "blpc1" or hostname == "blpc2":
+#     full_dataset_path = "/datax/scratch/nstieg/25GHz_higher.pkl"
+#     coherent_dataset_path = "/datax/scratch/nstieg/25GHz_higher_coherent.pkl"
+#     incoherent_dataset_path = "/datax/scratch/nstieg/25GHz_higher_incoherent.pkl"
+# else:
+#     raise Exception("Data path not known")
 
+coherent_dataset_path = os.path.join(os.path.dirname(__file__), "../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl")
 # Read in data
 coherent = pd.read_pickle(coherent_dataset_path)
 # incoherent = pd.read_pickle(incoherent_dataset_path)
@@ -83,7 +84,7 @@ def find_adjacent_distances(data, window_width, log_path):
 # Set the threshold distance in hz to call two hits 'adjacent' and record their relative distances
 threshold_hz = 1000
 threshold = threshold_hz * 1e-6 # in MHz
-path = "/home/nstieg/BL-COSMIC-2024-proj/frequency_adjacency/adjacent_in_coherent/" # Place to save arrays
+path = os.path.join(os.path.dirname(__file__),"./adjacent_in_coherent/") # Place to save arrays
 distances_file_path = path + f'coherent_within_{round(threshold_hz)}hz.distances.npz'
 mask_file_path = path + f'coherent_within_{round(threshold_hz)}hz.mask.npz'
 log_path = path + f"log.txt"
