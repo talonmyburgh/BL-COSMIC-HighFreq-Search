@@ -3,7 +3,7 @@ Filters run on the hits from Coherent beams on COSMIC targest (30M closest stars
 2. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 0.25Hz/s
 3. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 2Hz/s
 4. Grouped by source. Grouped by frequency. Rejects groups with more than one frequency. The code keeps only unique (source, frequency) pairs (i.e., only one hit per frequency per source).
-5. Grouped by freuqency. Rejects groups with more than one frequency. Not grouped by source like the previous instances and so makes the obsolete. Can run just from filter five.
+5. Grouped by frequency. Rejects groups with more than one frequency. Not grouped by source like the previous instances and so makes the obsolete. Can run just from filter 5 (makes prior obsolete).
 6. Rejects all hits with zero drift rate.
 7. Rejects all hits with SNR <= 10
 8. Rejects all hits with SNR >= 100
