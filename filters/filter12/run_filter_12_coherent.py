@@ -1,4 +1,4 @@
- # run_filter_12_coherent.py
+# run_filter_12_coherent.py
 # Runs filter 12 on all coherent data
 # Noah Stiegler
 # 7/29/24
@@ -7,37 +7,36 @@
 import numpy as np
 import pandas as pd
 import os
-import socket
 from datetime import datetime, timedelta
-import multiprocessing
 
 ### Setup for logging
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
+log_filepath = os.path.join(script_dir, "run_filter_12_coherent_log.txt")
+
+def log_message(message):
+    with open(log_filepath, 'a') as f:
+        f.write(f"{datetime.now()}: {message}" + '\n')
+# Print something and log it at the same time
+def print_and_log(message):
+    print(message)
+    log_message(message)
 
 ### Read in the data
-# Check which server we're on (in case the data is in different places on different servers)
-import socket
-hostname = socket.gethostname()
+full_dataset_path = os.path.abspath(os.path.join(script_dir, "../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl"))
+print_and_log(f"Reading in coherent data from: {full_dataset_path}")
+full_coherent = pd.read_pickle(full_dataset_path)
 
-# Get paths to data
-if hostname == "blpc1" or hostname == "blpc2":
-    data_path = "/datax/scratch/nstieg/"
-elif hostname == "cosmic-gpu-1":
-    data_path = "/mnt/cosmic-gpu-1/data0/nstiegle/"
-else:
-    raise Exception("Data path not known")
+good_indices_path = os.path.join(script_dir, "../filter11/run_filter_11_coherent_results.npy")
+print_and_log(f"Reading in good indices from: {good_indices_path}")
+good_indices = np.load(good_indices_path)
+full_coherent = full_coherent[full_coherent.id.isin(good_indices)]
 
-from astropy.time import Time
-
-# Get the coherent dataset but with all the columns
-full_coherent = pd.read_pickle(data_path + "25GHz_higher_coherent_all_columns.pkl")
-
-# Reject hits which have fewer than 16 timesteps and an snr less than 15
-enough_timesteps = full_coherent.num_timesteps >= 16
-enough_snr = full_coherent.signal_snr >= 15
-full_coherent = full_coherent[enough_timesteps & enough_snr]
+# Apply filter: if num_timesteps < 16, require signal_snr > 15; otherwise, keep all
+mask = ((full_coherent.num_timesteps < 16) & (full_coherent.signal_snr > 15)) | (full_coherent.num_timesteps >= 16)
+filtered = full_coherent[mask]
 
 # Save results
-results = full_coherent.id
-np.save("/home/nstieg/BL-COSMIC-2024-proj/filters/filter12/run_filter_12_coherent_results.npy", results.values)
+output_path = os.path.join(script_dir, "run_filter_12_coherent_results.npy")
+np.save(output_path, filtered.id.values)
+print_and_log(f"Saved results to: {output_path}")

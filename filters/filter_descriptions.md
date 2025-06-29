@@ -2,15 +2,15 @@ Filters run on the hits from Coherent beams on COSMIC targest (30M closest stars
 1. Grouped by source. Grouped by frequency. Rejects groups where all hits have 0 drift rate
 2. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 0.25Hz/s
 3. Grouped by source. Grouped by frequency. Rejects groups where all hits have drift rate < 2Hz/s
-4. Grouped by source. Grouped by frequency. Rejects groups with more than one frequency
-5. Grouped by freuqency. Rejects groups with more than one frequency.
+4. Grouped by source. Grouped by frequency. Rejects groups with more than one frequency. The code keeps only unique (source, frequency) pairs (i.e., only one hit per frequency per source).
+5. Grouped by freuqency. Rejects groups with more than one frequency. Not grouped by source like the previous instances and so makes the obsolete. Can run just from filter five.
 6. Rejects all hits with zero drift rate.
-7. Rejects all hits with SNR < 10
-8. Rejects all hits with SNR > 100
+7. Rejects all hits with SNR <= 10
+8. Rejects all hits with SNR >= 100
 9. Rejects hits within 2hz of another hit
 10. Rejects hits within 10hz of another hit
 11. Flag hits which have another hit where it looks like they're drifting to
-12. For timestamps which have a num_timesteps < 16, reject hits with SNR < 15
+12. For hits with num_timesteps < 16, require signal_snr > 15. For hits with num_timesteps >= 16, no SNR requirement is applied.
 
 Motivation:
 1. Improve sensitivity to rejecting signals which have consistently zero drift rate (so are not astrophysical but instead originate on the Earth itself which is why they have 0 relative acceleration). COSMIC's sensitivity is to signals drifting 0.25Hz/s or more. 

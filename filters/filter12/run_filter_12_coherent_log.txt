@@ -1,0 +1,3 @@
+2025-06-29 21:14:03.904221: Reading in coherent data from: D:\WORK\IAC\highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-29 21:14:04.553223: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter12\../filter11/run_filter_11_coherent_results.npy
+2025-06-29 21:14:04.661798: Saved results to: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter12\run_filter_12_coherent_results.npy

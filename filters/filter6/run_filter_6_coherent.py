@@ -13,7 +13,7 @@ import multiprocessing
 ### Setup for logging
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
-log_filepath = script_dir + "/run_filter_4_coherent_log.txt"
+log_filepath = script_dir + "/run_filter_6_coherent_log.txt"
 # Setup for logging messages
 def log_message(message):
     with open(log_filepath, 'a') as f:

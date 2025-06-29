@@ -15,3 +15,128 @@
 2024-07-30 09:12:46.803731: Done with: 2646431411821304960
 2024-07-30 09:12:46.897436: Algorithm done. Saving
 2024-07-30 09:12:47.159220: Saved. Done!
+2025-06-10 16:30:31.358809: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:32.573475: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:32.663373: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:32.835255: Running algorithm
+2025-06-10 16:30:33.579685: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.586489: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.603241: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.616082: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.618641: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.621472: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.621472: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.639627: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.639627: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.657294: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.661793: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.663604: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.673867: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.676490: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.677489: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.682287: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.687611: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.695279: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.695279: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.705192: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.715617: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.715617: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.734841: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:33.737828: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 16:30:47.758396: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:48.597035: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.078806: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.078806: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.078806: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.303792: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.432417: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:49.966817: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.101232: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.103637: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.182664: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.184854: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.429074: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.499604: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.792071: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.799241: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.801146: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:50.821485: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:51.356933: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:51.457109: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:52.495438: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:53.563070: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:53.569853: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:54.144505: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:54.346674: Done with: 3073619025268414208
+2025-06-10 16:30:54.456451: Done with: 3073619338801840000
+2025-06-10 16:30:54.568888: Done with: 3073619407521316864
+2025-06-10 16:30:54.618290: Done with: 4057662694985555968
+2025-06-10 16:30:54.712367: Done with: 4057662832424901760
+2025-06-10 16:30:54.805526: Done with: 4057662832424908160
+2025-06-10 16:30:54.841740: Done with: 4057662896835646592
+2025-06-10 16:30:54.888759: Done with: 4057663515311002368
+2025-06-10 16:30:54.896755: Done with: 1304986578365581440
+2025-06-10 16:30:54.975849: Done with: 4057663588339157376
+2025-06-10 16:30:55.107241: Done with: 4057663760137861120
+2025-06-10 16:30:55.119000: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:55.119000: Done with: 4057663828857338368
+2025-06-10 16:30:55.220778: Done with: 4057663893268143360
+2025-06-10 16:30:55.228777: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:55.269241: Done with: 4057664000655691520
+2025-06-10 16:30:55.336334: Done with: 4057668948457957376
+2025-06-10 16:30:55.490767: Done with: 4057669051537149056
+2025-06-10 16:30:55.584393: Done with: 4057668982817709312
+2025-06-10 16:30:55.594430: Done with: 4057669360774820224
+2025-06-10 16:30:55.686032: Done with: 4057669360774821760
+2025-06-10 16:30:55.718974: Done with: 4057669665704274176
+2025-06-10 16:30:55.740787: Done with: 4057669738731963136
+2025-06-10 16:30:55.778700: Done with: 4057669738731973248
+2025-06-10 16:30:55.854037: Done with: 4057670185408565888
+2025-06-10 16:30:55.893206: Done with: 4057670249822469376
+2025-06-10 16:30:55.925087: Done with: 4057670288487780096
+2025-06-10 16:30:56.067745: Done with: 4057670387261449600
+2025-06-10 16:30:56.067745: Done with: 4057670593419907968
+2025-06-10 16:30:56.136602: Done with: 4057671869035760384
+2025-06-10 16:30:56.181934: Done with: 4057672075194206208
+2025-06-10 16:30:56.250102: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:56.327511: Done with: 4057710863030591744
+2025-06-10 16:30:56.369348: Done with: 4057710897390306688
+2025-06-10 16:30:56.427179: Done with: 4057711314017867648
+2025-06-10 16:30:56.457813: Done with: 4057711348377192704
+2025-06-10 16:30:56.552370: Done with: 4057716983374266240
+2025-06-10 16:30:56.617685: Done with: 4057717120813215872
+2025-06-10 16:30:56.700874: Done with: 4057717155172970880
+2025-06-10 16:30:56.813848: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:56.836527: Done with: 4057717670569033344
+2025-06-10 16:30:56.903280: Done with: 4057717734980975616
+2025-06-10 16:30:56.905280: Done with: 4057717597541561216
+2025-06-10 16:30:56.953227: Done with: 4057717872419963136
+2025-06-10 16:30:57.052947: Done with: 4057718014166454016
+2025-06-10 16:30:57.179381: Done with: 4057718559614735616
+2025-06-10 16:30:57.289666: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:58.270006: Done with: 4066907835429532416
+2025-06-10 16:30:58.533359: Done with: 4266157484359852288
+2025-06-10 16:30:58.601629: Done with: DCD_2660349163149053824
+2025-06-10 16:30:58.648240: Done with: 4066997716194441344
+2025-06-10 16:30:58.673112: Done with: DCG_2644370304260053376
+2025-06-10 16:30:58.958402: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:59.265704: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:30:59.292566: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:59.471011: Coherent data post filter 3 read in correctly
+2025-06-10 16:30:59.618510: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:00.215091: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:31:00.423669: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:01.233015: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:01.260618: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:31:01.554316: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:01.565959: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:01.658675: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter4\../filter3/run_filter_3_coherent_results.npy
+2025-06-10 16:31:01.765632: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:01.967625: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:04.003415: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:04.154518: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:04.707631: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:04.982266: Coherent data post filter 3 read in correctly
+2025-06-10 16:31:51.725207: Done with: PHASE_CENTER
+2025-06-10 16:31:51.745922: Algorithm done. Saving
+2025-06-10 16:31:51.762756: Saved. Done!

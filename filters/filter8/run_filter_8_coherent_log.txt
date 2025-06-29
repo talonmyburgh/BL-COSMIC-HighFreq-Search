@@ -1,0 +1,4 @@
+2025-06-10 17:23:04.339015: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter8\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-10 17:23:05.001053: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter8\../filter7/run_filter_7_coherent_results.npy
+2025-06-29 20:51:54.336668: Reading in coherent data from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter8\../../../highfrequency_hit_feb12024_apr302025_coherent_full.pkl
+2025-06-29 20:51:54.986094: Reading in good indices from: D:\WORK\IAC\BL-COSMIC-HighFreq-Search\filters\filter8\../filter7/run_filter_7_coherent_results.npy

@@ -29,3 +29,174 @@
 2024-08-06 14:53:43.939006: Done with source: 3127348761205770496
 2024-08-06 14:53:51.893140: Done with source: 3073619025268414208
 2024-08-06 14:54:42.890372: Done with source: 2542485953354555264
+2025-06-09 14:46:08.182039: Coherent data read in correctly
+2025-06-09 14:46:08.518907: Running algorithm
+2025-06-09 14:46:30.800555: Coherent data read in correctly
+2025-06-09 14:46:31.214324: Coherent data read in correctly
+2025-06-09 14:46:31.562931: Coherent data read in correctly
+2025-06-09 14:46:31.847994: Coherent data read in correctly
+2025-06-09 14:46:31.887541: Coherent data read in correctly
+2025-06-09 14:46:31.897133: Coherent data read in correctly
+2025-06-09 14:46:31.936975: Coherent data read in correctly
+2025-06-09 14:46:32.175216: Coherent data read in correctly
+2025-06-09 14:46:32.196398: Coherent data read in correctly
+2025-06-09 14:46:32.461750: Coherent data read in correctly
+2025-06-09 14:46:32.698387: Coherent data read in correctly
+2025-06-09 14:46:32.718405: Coherent data read in correctly
+2025-06-09 14:46:33.469187: Coherent data read in correctly
+2025-06-09 14:46:33.720794: Coherent data read in correctly
+2025-06-09 14:46:33.901924: Coherent data read in correctly
+2025-06-09 14:46:36.506698: Coherent data read in correctly
+2025-06-09 14:46:36.647022: Coherent data read in correctly
+2025-06-09 14:46:37.222496: Coherent data read in correctly
+2025-06-09 14:46:38.028423: Coherent data read in correctly
+2025-06-09 14:46:38.461016: Coherent data read in correctly
+2025-06-09 14:46:39.126767: Coherent data read in correctly
+2025-06-09 14:46:43.216910: Coherent data read in correctly
+2025-06-09 14:46:44.279866: Coherent data read in correctly
+2025-06-09 14:46:46.358751: Coherent data read in correctly
+2025-06-09 14:47:14.282077: Coherent data read in correctly
+2025-06-09 14:47:14.337360: Coherent data read in correctly
+2025-06-09 14:47:14.344669: Coherent data read in correctly
+2025-06-09 14:47:14.692390: Coherent data read in correctly
+2025-06-09 14:47:14.858808: Coherent data read in correctly
+2025-06-09 14:47:15.232106: Coherent data read in correctly
+2025-06-09 14:47:15.268109: Coherent data read in correctly
+2025-06-09 14:47:15.439694: Coherent data read in correctly
+2025-06-09 14:47:15.559934: Coherent data read in correctly
+2025-06-09 14:47:15.708278: Coherent data read in correctly
+2025-06-09 14:47:15.724278: Coherent data read in correctly
+2025-06-09 14:47:15.725276: Coherent data read in correctly
+2025-06-09 14:47:15.725276: Coherent data read in correctly
+2025-06-09 14:47:15.727277: Coherent data read in correctly
+2025-06-09 14:47:15.750277: Coherent data read in correctly
+2025-06-09 14:47:15.768282: Coherent data read in correctly
+2025-06-09 14:47:15.781792: Coherent data read in correctly
+2025-06-09 14:47:15.782792: Coherent data read in correctly
+2025-06-09 14:47:15.788791: Coherent data read in correctly
+2025-06-09 14:47:17.259619: Coherent data read in correctly
+2025-06-09 14:47:19.165861: Coherent data read in correctly
+2025-06-09 14:47:19.304891: Coherent data read in correctly
+2025-06-09 14:47:22.726889: Coherent data read in correctly
+2025-06-09 14:47:22.859095: Coherent data read in correctly
+2025-06-09 14:47:54.466499: Coherent data read in correctly
+2025-06-09 14:47:55.256487: Coherent data read in correctly
+2025-06-09 14:47:55.555754: Coherent data read in correctly
+2025-06-09 14:47:55.937956: Coherent data read in correctly
+2025-06-09 14:47:56.166271: Coherent data read in correctly
+2025-06-09 14:47:56.178271: Coherent data read in correctly
+2025-06-09 14:47:56.272243: Coherent data read in correctly
+2025-06-09 14:47:56.313247: Coherent data read in correctly
+2025-06-09 14:47:56.415756: Coherent data read in correctly
+2025-06-09 14:47:56.525784: Coherent data read in correctly
+2025-06-09 14:47:57.038877: Coherent data read in correctly
+2025-06-09 14:47:57.125861: Coherent data read in correctly
+2025-06-09 14:47:57.296514: Coherent data read in correctly
+2025-06-09 14:47:57.459195: Coherent data read in correctly
+2025-06-09 14:47:57.487194: Coherent data read in correctly
+2025-06-09 14:47:57.587243: Coherent data read in correctly
+2025-06-09 14:47:57.793340: Coherent data read in correctly
+2025-06-09 14:48:00.852590: Coherent data read in correctly
+2025-06-09 14:48:03.497283: Coherent data read in correctly
+2025-06-09 14:48:03.890965: Coherent data read in correctly
+2025-06-09 14:48:04.924464: Coherent data read in correctly
+2025-06-09 14:48:05.496700: Coherent data read in correctly
+2025-06-09 14:48:09.717499: Coherent data read in correctly
+2025-06-09 14:48:09.988559: Coherent data read in correctly
+2025-06-09 14:48:43.361949: Coherent data read in correctly
+2025-06-09 14:48:43.620023: Coherent data read in correctly
+2025-06-09 14:48:43.653022: Coherent data read in correctly
+2025-06-09 14:48:43.693141: Coherent data read in correctly
+2025-06-09 14:48:44.014437: Coherent data read in correctly
+2025-06-09 14:48:44.067442: Coherent data read in correctly
+2025-06-09 14:48:44.090616: Coherent data read in correctly
+2025-06-09 14:48:44.229684: Coherent data read in correctly
+2025-06-09 14:48:44.343945: Coherent data read in correctly
+2025-06-09 14:48:44.501838: Coherent data read in correctly
+2025-06-09 14:48:44.681014: Coherent data read in correctly
+2025-06-09 14:48:45.072725: Coherent data read in correctly
+2025-06-09 14:48:45.234691: Coherent data read in correctly
+2025-06-09 14:48:45.572648: Coherent data read in correctly
+2025-06-09 14:48:45.621157: Coherent data read in correctly
+2025-06-09 14:48:47.058809: Coherent data read in correctly
+2025-06-09 14:48:47.124772: Coherent data read in correctly
+2025-06-09 14:48:48.056302: Coherent data read in correctly
+2025-06-09 14:48:52.543092: Coherent data read in correctly
+2025-06-09 14:48:52.668644: Coherent data read in correctly
+2025-06-09 14:48:53.583896: Coherent data read in correctly
+2025-06-09 14:48:53.590896: Coherent data read in correctly
+2025-06-09 14:48:54.370661: Coherent data read in correctly
+2025-06-09 14:49:57.685747: Coherent data read in correctly
+2025-06-09 14:49:58.026434: Running algorithm
+2025-06-09 14:50:10.450087: Coherent data read in correctly
+2025-06-09 14:50:10.898339: Coherent data read in correctly
+2025-06-09 14:50:12.008158: Done with source: 3073619025268414208
+2025-06-09 14:50:12.433217: Done with source: 3073619338801840000
+2025-06-09 14:50:12.564244: Coherent data read in correctly
+2025-06-09 14:50:12.832992: Done with source: 3073619407521316864
+2025-06-09 14:50:12.912665: Done with source: 4057662694985555968
+2025-06-09 14:50:13.013115: Done with source: 4057662832424901760
+2025-06-09 14:50:13.106794: Done with source: 4057662832424908160
+2025-06-09 14:50:13.221113: Done with source: 4057662896835646592
+2025-06-09 14:50:13.317055: Done with source: 4057663515311002368
+2025-06-09 14:50:13.523266: Done with source: 1304986578365581440
+2025-06-09 14:50:13.528266: Coherent data read in correctly
+2025-06-09 14:50:13.570736: Done with source: 4057663760137861120
+2025-06-09 14:50:13.641736: Done with source: 4057663828857338368
+2025-06-09 14:50:13.729248: Done with source: 4057663893268143360
+2025-06-09 14:50:13.841756: Done with source: 4057664000655691520
+2025-06-09 14:50:13.866277: Done with source: 4057668948457957376
+2025-06-09 14:50:13.974655: Done with source: 4057668982817709312
+2025-06-09 14:50:14.086172: Done with source: 4057669051537149056
+2025-06-09 14:50:14.106173: Done with source: 4057669360774820224
+2025-06-09 14:50:14.113173: Done with source: 4057669360774821760
+2025-06-09 14:50:14.185689: Done with source: 4057669665704274176
+2025-06-09 14:50:14.225688: Done with source: 4057669738731973248
+2025-06-09 14:50:14.233691: Done with source: 4057669738731963136
+2025-06-09 14:50:14.277208: Done with source: 4057670249822469376
+2025-06-09 14:50:14.285208: Done with source: 4057670185408565888
+2025-06-09 14:50:14.308207: Done with source: 4057670288487780096
+2025-06-09 14:50:14.319210: Done with source: 4057670387261449600
+2025-06-09 14:50:14.360722: Done with source: 4057670593419907968
+2025-06-09 14:50:14.373720: Done with source: 4057671869035760384
+2025-06-09 14:50:14.390722: Done with source: 4057672075194206208
+2025-06-09 14:50:14.464237: Done with source: 4057710863030591744
+2025-06-09 14:50:14.499238: Done with source: 4057711314017867648
+2025-06-09 14:50:14.512238: Coherent data read in correctly
+2025-06-09 14:50:14.537237: Done with source: 4057710897390306688
+2025-06-09 14:50:14.548240: Done with source: 4057711348377192704
+2025-06-09 14:50:14.563748: Done with source: 4057716983374266240
+2025-06-09 14:50:14.610748: Done with source: 4057717120813215872
+2025-06-09 14:50:14.616748: Done with source: 4057717155172970880
+2025-06-09 14:50:14.620749: Done with source: 4057717597541561216
+2025-06-09 14:50:14.650755: Done with source: 4057717670569033344
+2025-06-09 14:50:14.654757: Coherent data read in correctly
+2025-06-09 14:50:14.654757: Coherent data read in correctly
+2025-06-09 14:50:14.657756: Coherent data read in correctly
+2025-06-09 14:50:14.657756: Coherent data read in correctly
+2025-06-09 14:50:14.659262: Coherent data read in correctly
+2025-06-09 14:50:14.660269: Coherent data read in correctly
+2025-06-09 14:50:14.667269: Coherent data read in correctly
+2025-06-09 14:50:14.673267: Coherent data read in correctly
+2025-06-09 14:50:14.678268: Coherent data read in correctly
+2025-06-09 14:50:14.724268: Done with source: 4057717872419963136
+2025-06-09 14:50:14.738268: Done with source: 4057718014166454016
+2025-06-09 14:50:14.740269: Done with source: 4057717734980975616
+2025-06-09 14:50:14.774339: Done with source: 4057718559614735616
+2025-06-09 14:50:15.234416: Coherent data read in correctly
+2025-06-09 14:50:15.321762: Coherent data read in correctly
+2025-06-09 14:50:15.510781: Coherent data read in correctly
+2025-06-09 14:50:15.786597: Coherent data read in correctly
+2025-06-09 14:50:15.797155: Coherent data read in correctly
+2025-06-09 14:50:16.334665: Coherent data read in correctly
+2025-06-09 14:50:16.349667: Coherent data read in correctly
+2025-06-09 14:50:16.361709: Done with source: 4266157484359852288
+2025-06-09 14:50:16.409710: Done with source: DCD_2660349163149053824
+2025-06-09 14:50:16.416710: Done with source: DCG_2644370304260053376
+2025-06-09 14:50:16.869750: Coherent data read in correctly
+2025-06-09 14:50:16.947753: Done with source: 4066907835429532416
+2025-06-09 14:50:17.001265: Done with source: 4066997716194441344
+2025-06-09 14:50:17.260499: Coherent data read in correctly
+2025-06-09 14:55:11.997433: Done with source: PHASE_CENTER
+2025-06-09 14:55:12.085614: Algorithm done. Saving
+2025-06-09 14:55:12.108260: Saved. Done!

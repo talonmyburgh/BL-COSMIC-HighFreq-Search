@@ -34,3 +34,26 @@ On hit {i}
 On hit {i}
 Done with calculation, saving
 Script finishing
+Starting calculation
+On hit 0
+On hit 100000
+On hit 200000
+On hit 300000
+On hit 400000
+On hit 500000
+On hit 600000
+On hit 700000
+On hit 800000
+On hit 900000
+On hit 1000000
+On hit 1100000
+On hit 1200000
+On hit 1300000
+On hit 1400000
+On hit 1500000
+On hit 1600000
+On hit 1700000
+On hit 1800000
+On hit 1900000
+Done with calculation, saving
+Script finishing
